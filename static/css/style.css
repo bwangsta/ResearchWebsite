@@ -1,0 +1,129 @@
+html, body {
+	overflow-x: hidden;
+	font-family: 'Quicksand', sans-serif;
+	height: 100%;
+}
+
+p {
+	font-size: 1.4rem;
+}
+
+section {
+	padding: 3% 0;
+}
+
+.header {
+	padding: 1.5rem 0;
+	font-weight: 500;
+	font-size: 3.5rem;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/pattern.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.caption {
+	text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.caption h1 {
+	font-size: 13vw;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.5rem;
+}
+
+/* ========== RESEARCHERS =========== */
+.name {
+	font-size: 1.5rem;
+	margin: 0;
+	font-weight: 500;
+}
+
+.degree {
+	font-size: 1.1rem;
+}
+
+#aboutUs img {
+	width: 25vw;
+}
+
+#researchers img {
+	height: 180px;
+	width: 180px;
+	border-radius: 50%;
+}
+
+#researchers .col-sm-6 {
+	padding-bottom: 2rem;
+}
+
+/* ========== FORM ========== */
+iframe {
+	margin-top: 2.5rem;
+}
+
+/* ========== FOOTER ========== */
+footer {
+	height: 50%;
+	background-color: black;
+	padding-top: 5rem;
+	margin-top: 5rem;
+	color: white;
+}
+
+footer h1 {
+	font-size: 4rem;
+	font-weight: 700;
+	letter-spacing: 1.2rem;
+	text-transform: uppercase;
+}
+
+footer .fab {
+	margin: 25px 10px;
+	color: #fd79a8;
+}
+
+/* ========== Media Queries ========== */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+	.header {
+		font-size: 2rem;
+		padding: 1rem 0;
+		margin: 0;
+	}
+
+	p {
+		font-size: 1.1rem;
+	}
+
+	#socialMedia h2 {
+		font-size: 1.5rem;
+	}
+
+	footer h1 {
+		font-size: 1.75rem;
+	}
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+	.degree {
+		font-size: 1rem;
+	}
+}
