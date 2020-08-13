@@ -1,6 +1,7 @@
 html, body {
 	overflow-x: hidden;
 	font-family: 'Quicksand', sans-serif;
+	font-display: swap;
 	height: 100%;
 }
 
