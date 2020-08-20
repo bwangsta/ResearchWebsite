@@ -70,6 +70,11 @@ iframe {
 	margin: 2.5rem 0;
 }
 
+/* ========== SOCIAL MEDIA ========== */
+#socialMedia .fab {
+  color: #fd79a8;
+}
+
 /* ========== FOOTER ========== */
 footer {
 	height: 50%;
