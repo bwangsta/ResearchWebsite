@@ -3,30 +3,35 @@ html, body {
 	font-family: 'Quicksand', sans-serif;
 	height: 100%;
 }
-
 p {
-	font-size: 1.4rem;
+	font-size: 1.4em;
 }
-
 section {
-	padding: 3% 0;
+	padding: 3rem 0;
 }
-
 .header {
-	padding: 1.5rem 0;
-	font-weight: 500;
-	font-size: 3.5rem;
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  background: #03001e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fdeff9, #fd79a8, #1e3c72, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fdeff9, #fd79a8, #1e3c72, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
+/* BACKGROUND IMAGE */
 .banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/background.jpg");
-  height: 50%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/background.jpg");
+  height: 60%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  background-attachment: fixed;
 }
-
 .caption {
 	text-align: center;
   position: absolute;
@@ -34,8 +39,8 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
-
 .caption h1 {
 	font-size: 13vw;
 	text-transform: uppercase;
@@ -45,21 +50,18 @@ section {
 
 /* ========== RESEARCHERS =========== */
 .name {
-	font-size: 1.5rem;
+	font-size: 1.5em;
 	margin: 0;
 	font-weight: 500;
 }
-
 .degree {
-	font-size: 1.1rem;
+	font-size: 1.1em;
 }
-
 #researchers img {
-	height: 180px;
-	width: 180px;
+	height: 9rem;
+	width: 9rem;
 	border-radius: 50%;
 }
-
 #researchers .col-sm-6 {
 	padding-bottom: 2rem;
 }
@@ -70,24 +72,30 @@ iframe {
 }
 
 /* ========== SOCIAL MEDIA ========== */
-#socialMedia .fab {
-  color: #fd79a8;
+#socialMedia img {
+  width: 5rem;
 }
 
 /* ========== FOOTER ========== */
 footer {
-	height: 50%;
 	background-color: black;
-	padding-top: 5rem;
-	margin-top: 5rem;
+	padding: 5rem 0 1rem 0;
+	margin-top: 3rem;
 	color: white;
 }
-
 footer h1 {
-	font-size: 4rem;
-	font-weight: 700;
-	letter-spacing: 1.2rem;
-	text-transform: uppercase;
+  font-size: 7em;
+  text-transform: uppercase;
+  letter-spacing: 0.7rem;
+  font-weight: 700;
+  text-indent: 0.7rem;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  margin-bottom: 5rem;
+}
+footer p {
+  padding: 0 0.5rem;
+  margin: 0;
+  font-size: 0.8em;
 }
 
 /* ========== Media Queries ========== */
@@ -103,26 +111,21 @@ footer h1 {
   .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/background-tablet.jpg");
   }
-
 	.header {
 		font-size: 2rem;
 		padding: 1rem 0;
 		margin: 0;
 	}
-
 	p {
 		font-size: 1.1rem;
 	}
-
 	#socialMedia h2 {
 		font-size: 1.5rem;
 	}
-
 	footer h1 {
 		font-size: 1.75rem;
 	}
 }
-
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .banner {
