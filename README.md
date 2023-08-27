@@ -37,8 +37,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Viberent Research Website Screenshot](https://github.com/bwangsta/viberent-research/assets/60533686/3defe3c2-0f06-4bcf-968d-5d069dfab33e)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
